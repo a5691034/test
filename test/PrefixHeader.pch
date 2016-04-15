@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  test
+//
+//  Created by Apple on 16/4/15.
+//  Copyright © 2016年 williams. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define __kLocalFilePath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0]
+
+//手机屏幕宽高
+#define AppWidth ([UIScreen mainScreen].bounds.size.width)
+#define AppHeight ([UIScreen mainScreen].bounds.size.height)
+
+#define UIColorFromRGBA(rgbValue, alphaValue) ([UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue])
+
+#import "MJRefresh.h"
+#import "ProgressHUD.h"
+#import "AFNetworking.h"
+
+#import "BaseViewController.h"
+
+#endif /* PrefixHeader_pch */
