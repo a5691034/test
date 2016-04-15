@@ -18,3 +18,5 @@ This is the Project about self Tools for test
 滚动隐藏导航栏<br>
 页面滚动<br>
 模仿网易新闻<br>
+#备注
+部分功能代码收集自网上大神
