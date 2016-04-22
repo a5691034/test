@@ -18,7 +18,6 @@
 #import "PickImageViewController.h"
 #import "DataPickViewController.h"
 #import "DatePickerSecondViewController.h"
-
 #import "LocationViewController.h"
 #import "MoreLineViewController.h"
 #import "CutPicViewController.h"
@@ -29,6 +28,7 @@
 #import "ScrollHiddenViewController.h"
 #import "RootBusinessCircleViewController.h"
 #import "LJHomeViewController.h"
+#import "ScrollShowViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 {
@@ -53,7 +53,7 @@
 - (void)prepareData {
     _dataArray = [[NSMutableArray alloc] init];
     
-    NSArray *titleArr = @[@"相机",@"日期选择(滚轮)",@"一只角的View",@"图片选择",@"日期选择器📅",@"日期选择器单选",@"地图定位", @"文字排序", @"屏幕截图", @"图片滚动", @"计算器", @"弹出式子菜单", @"发送邮件", @"滚动隐藏导航栏", @"页面滚动", @"模仿网易新闻"];
+    NSArray *titleArr = @[@"相机",@"日期选择(滚轮)",@"一只角的View",@"图片选择",@"日期选择器📅",@"日期选择器单选",@"地图定位", @"文字排序", @"屏幕截图", @"图片滚动", @"计算器", @"弹出式子菜单", @"发送邮件", @"滚动隐藏导航栏", @"页面滚动", @"模仿网易新闻",@"滚动-锁定"];
     for (int i = 0; i<20; i++) {
         if (i<titleArr.count) {
             [_dataArray addObject:titleArr[i]];
@@ -237,6 +237,13 @@
         {
             NSLog(@"模仿网易新闻");
             [self.navigationController pushViewController:[RootBusinessCircleViewController new] animated:YES];
+        }
+            break;
+        case 16:
+        {
+            NSLog(@"滚动-锁定");
+
+            [self.navigationController pushViewController:[ScrollShowViewController new] animated:YES];
         }
             break;
         default:

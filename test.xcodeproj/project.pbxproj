@@ -20,6 +20,8 @@
 		185F38D81C34D0430071FAC3 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F38CD1C34D0430071FAC3 /* LeftSortsViewController.m */; };
 		185F38DA1C34D0430071FAC3 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F38D11C34D0430071FAC3 /* OtherViewController.m */; };
 		185F38DB1C34D0430071FAC3 /* SkipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F38D41C34D0430071FAC3 /* SkipViewController.m */; };
+		18A04A581CC9F22B0034616E /* ScrollShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A04A571CC9F22B0034616E /* ScrollShowViewController.m */; };
+		18A04A5A1CC9F4A30034616E /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A04A591CC9F4A30034616E /* car@2x.png */; };
 		18A564921CC0C00B000BAADF /* OneCornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A564911CC0C00B000BAADF /* OneCornerViewController.m */; };
 		18A5649D1CC0C06B000BAADF /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A564951CC0C06B000BAADF /* CameraViewController.m */; };
 		18A5649E1CC0C06B000BAADF /* CustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A564971CC0C06B000BAADF /* CustomCameraViewController.m */; };
@@ -209,6 +211,9 @@
 		185F38D11C34D0430071FAC3 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		185F38D31C34D0430071FAC3 /* SkipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkipViewController.h; sourceTree = "<group>"; };
 		185F38D41C34D0430071FAC3 /* SkipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkipViewController.m; sourceTree = "<group>"; };
+		18A04A561CC9F22B0034616E /* ScrollShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollShowViewController.h; sourceTree = "<group>"; };
+		18A04A571CC9F22B0034616E /* ScrollShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollShowViewController.m; sourceTree = "<group>"; };
+		18A04A591CC9F4A30034616E /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
 		18A564901CC0C00B000BAADF /* OneCornerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCornerViewController.h; sourceTree = "<group>"; };
 		18A564911CC0C00B000BAADF /* OneCornerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCornerViewController.m; sourceTree = "<group>"; };
 		18A564941CC0C06B000BAADF /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
@@ -540,6 +545,7 @@
 				18E730F31BC8BCD4002EB82F /* BaseViewController.h */,
 				18E730F41BC8BCD4002EB82F /* BaseViewController.m */,
 				18D20B971CC083DE00867AF5 /* PrefixHeader.pch */,
+				18A04A521CC9C79D0034616E /* tableVIewshowtop */,
 				18A5648F1CC0C00B000BAADF /* OneCorner */,
 				18D20B811CC07BD400867AF5 /* ScrollPage */,
 				18B85E3F1C3F5FF600030FC7 /* WangyiModel */,
@@ -625,6 +631,16 @@
 				185F38D41C34D0430071FAC3 /* SkipViewController.m */,
 			);
 			path = SideBackViewController;
+			sourceTree = "<group>";
+		};
+		18A04A521CC9C79D0034616E /* tableVIewshowtop */ = {
+			isa = PBXGroup;
+			children = (
+				18A04A591CC9F4A30034616E /* car@2x.png */,
+				18A04A561CC9F22B0034616E /* ScrollShowViewController.h */,
+				18A04A571CC9F22B0034616E /* ScrollShowViewController.m */,
+			);
+			path = tableVIewshowtop;
 			sourceTree = "<group>";
 		};
 		18A5648F1CC0C00B000BAADF /* OneCorner */ = {
@@ -1391,6 +1407,7 @@
 				18A565721CC0C2EA000BAADF /* calendar_ok-disabled@2x.png in Resources */,
 				18A565761CC0C2EA000BAADF /* dialog_clear-disabled@2x.png in Resources */,
 				18A565441CC0C247000BAADF /* Example1TableViewCell.xib in Resources */,
+				18A04A5A1CC9F4A30034616E /* car@2x.png in Resources */,
 				18A565791CC0C2EA000BAADF /* dialog_ok-disabled.png in Resources */,
 				18A565671CC0C2EA000BAADF /* arrow_left.png in Resources */,
 				18A5657E1CC0C2EA000BAADF /* THDateDay.xib in Resources */,
@@ -1454,6 +1471,7 @@
 				18CE9CE21C102FBC00845A61 /* UIButton+AFNetworking.m in Sources */,
 				18A565391CC0C247000BAADF /* SDWebImageDownloaderOperation.m in Sources */,
 				18B7A4561C1FA5E70007674C /* UIScrollView+MJExtension.m in Sources */,
+				18A04A581CC9F22B0034616E /* ScrollShowViewController.m in Sources */,
 				18A565A01CC0C6A7000BAADF /* CutPicViewController.m in Sources */,
 				18B7A4461C1FA5E70007674C /* MJRefreshAutoFooter.m in Sources */,
 				18A565211CC0C247000BAADF /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
